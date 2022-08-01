@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive</title>
+    <style>
+        /* body{
+            background-color: black;
+        } */
+        *{
+            margin: 0;
+            /* width: 40%; */
+            padding:0;
+        }
+        body{
+            width: 100vw;
+            height: 100vh;
+        }
+        nav{
+            box-sizing: border-box;
+            padding: 20px;
+            min-height: 10%;
+            width: 100%;
+            font-size: 20px;
+            background-color: lightsalmon;
+            text-align: center;
+        }
+        a{
+            margin-left: 15px;
+        }
+        a:hover{
+            color: black;
+            box-shadow: 10px 0px 6px 4px  rgba(230, 196, 196, 0.8);
+          
+        }
+        .main{
+            display: flex;
+            width: 100%;
+            height: 90%;
+            background-color: aqua;
+        }
+        .main div{
+            color: blue;
+            font-size: 20px;
+            text-align: center;
+        }
+        .div1{
+            width: 25%;
+            background-color: red;
+        }
+        .div2{
+            width: 50%;
+            background-color: green;
+        }
+        .div3{
+            width: 25%;
+            background-color: orange;
+        }
+        /* #abccc{
+            margin: auto;
+            width: 70%;
+            height: 70%;
+           
+        } */
+        #one{
+            display: flex;
+            flex-direction: row;
+            /* margin: auto;
+            padding: 4px; */
+
+        }
+        #one li{
+            
+            margin: auto;
+            padding: 4px;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- <div id = "abccc"> -->
+    <nav>
+        <!-- <a href="/home" target="_blank">Home</a>
+        <a href="/news" target="_blank">News</a>
+        <a href="/contact" target="_blank">Contact</a>
+        <a href="/about" target="_blank">About</a> -->
+
+        <ul id  ="one" type = "none">
+                <li>Home</li>
+                <li>News</li>
+                <li>Contact</li>
+                <li>About</li>
+
+
+            </ul>
+    </nav>
+    <div class="main">
+        <div class="div1">Test Page</div>
+        <div class="div2">Test Page</div>
+        <div class="div3">Test Page</div>
+    </div>
+
+    <!-- </div> -->
+    
+</body>
+</html>
